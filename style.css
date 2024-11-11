@@ -1,7 +1,5 @@
-/* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +7,11 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif; /* Default for body */
+  font-family: 'Montserrat', sans-serif; 
   color: #333;
   background-color: #f8f8f8;
 }
 
-/* Header */
 header {
   background-color: #fff;
   padding: 15px 20px;
@@ -37,18 +34,17 @@ header {
 .menu li a {
   text-decoration: none;
   color: #333;
-  font-family: 'Montserrat', sans-serif; /* Use Montserrat for nav links */
+  font-family: 'Montserrat', sans-serif; 
   font-weight: 500;
   padding: 5px 10px;
   transition: color 0.3s;
 }
 
 .menu li a:hover {
-  color: #c70039; /* Cherry Red */
-  border-bottom: 2px solid #c70039; /* Cherry Red */
+  color: #c70039; 
+  border-bottom: 2px solid #c70039; 
 }
 
-/* Main Section */
 .about-section {
   display: flex;
   align-items: center;
@@ -64,11 +60,11 @@ header {
 }
 
 .text-content h1 {
-  font-family: 'Playfair Display', serif; /* Serif for headings */
+  font-family: 'Playfair Display', serif; 
   font-size: 2.5em;
   font-weight: 300;
   margin-bottom: 15px;
-  color: #c70039; /* Cherry Red */
+  color: #c70039; 
 }
 
 .text-content p {
@@ -88,10 +84,8 @@ header {
 }
 
 .image-content img + img {
-  margin-top: 20px; /* Adding margin between images */
-}
+  margin-top: 20px; }
 
-/* Raffaello Experience Section */
 .experience-section {
   background-color: #fff;
   padding: 60px 30px;
@@ -99,9 +93,9 @@ header {
 }
 
 .experience-section h2 {
-  font-family: 'Playfair Display', serif; /* Serif for section titles */
+  font-family: 'Playfair Display', serif;
   font-size: 2.5em;
-  color: #c70039; /* Elegant Cherry Red */
+  color: #c70039; 
   margin-bottom: 20px;
 }
 
@@ -124,7 +118,6 @@ header {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Interesting Facts Section */
 .facts-section {
   background-color: #f9f9f9;
   padding: 40px 20px;
@@ -132,9 +125,9 @@ header {
 }
 
 .facts-section h2 {
-  font-family: 'Playfair Display', serif; /* Cherry Red */
+  font-family: 'Playfair Display', serif; 
   font-size: 2em;
-  color: #c70039; /* Cherry Red */
+  color: #c70039;
   margin-bottom: 20px;
 }
 
@@ -148,7 +141,6 @@ header {
   color: #333;
 }
 
-/* Nutritional Information Section */
 .nutrition-section {
   background-color: #fff;
   padding: 40px 20px;
@@ -156,9 +148,9 @@ header {
 }
 
 .nutrition-section h2 {
-  font-family: 'Playfair Display', serif; /* Cherry Red */
+  font-family: 'Playfair Display', serif; 
   font-size: 2em;
-  color: #c70039; /* Cherry Red */
+  color: #c70039; 
   margin-bottom: 20px;
 }
 
@@ -177,7 +169,6 @@ header {
   background-color: #f8d7da;
 }
 
-/* Footer */
 footer {
   background-color: #f8f8f8;
   padding: 40px 20px;
@@ -239,7 +230,6 @@ footer {
   color: #555;
 }
 
-/* Responsive Styling */
 @media (max-width: 768px) {
   .about-section, .footer-content, .facts-section, .nutrition-section, .experience-section {
       flex-direction: column;
